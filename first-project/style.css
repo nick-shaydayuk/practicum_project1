@@ -7,8 +7,100 @@
 .header {
     min-height: 600px;
     max-height: 756px;
+    height: 100vh;
+    background-color: #f2f2f2;
+    display: flex;
+    position: relative ;
 }
 .logo {
     width: 228px;
     height: 32px;
+    background-image: url(images/logo_place_header.svg);
+}
+.logo_place_header {
+    position: absolute;
+    top: 30px;
+    left: 64px;
+}
+.title {
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    width: 730px;
+    margin: 0;
+    position: relative;
+}
+.header_subtitle {
+    width: 388px;
+    position: absolute;
+    bottom: 30px;
+    left: 64px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.header_elements_push-right {
+    margin-left: 64px;
+}
+.main-illustration {
+    height: 608px;
+    width: 765px;
+    background-image: url(images/two_again.png);
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.main-illustration_blue-block {
+    width: 568px;
+    height: 568px;
+    background-color: #2f80ed;
+    position: absolute;
+    top: 64px;
+    right: 0;
+}
+.description {
+    padding-top: 100px;
+    width: 80%;
+    min-width: 784px;
+    margin: auto;
+}
+.two-columns {
+    display: flex;
+    flex-direction: row;
+}
+.first-column__brief {
+    display: flex;
+    min-width: 175px;
+}
+.first-column__brief-text {
+    margin-top: 10;
+    color: #2f80ed;
+    line-height: 1.2;
+    font-size: 17px;
+}
+.fake-column-space {
+    width: 250px;
+}
+.second-column__main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0;
+    gap: 30px;
+    margin: 0;
+}
+
+.description__text_style {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}
+.second-column__span_accent {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: bold;
 }
