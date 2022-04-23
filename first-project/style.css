@@ -4,6 +4,10 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
     margin: 0 auto;
 }
+.centered-block {
+    display: flex;
+    justify-content: center;
+}
 .header {
     min-height: 600px;
     max-height: 756px;
@@ -62,8 +66,13 @@
     top: 64px;
     right: 0;
 }
-.description {
+.padding-top-between-blocks {
     padding-top: 100px;
+}
+.margin-top-between-blocks {
+    margin-top: 100px;
+}
+.description {
     width: 80%;
     min-width: 784px;
     margin: auto;
@@ -103,4 +112,87 @@
     line-height: 34px;
     font-size: 24px;
     font-weight: bold;
+}
+.section-title {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+    height: auto;
+    line-height: 1.15;
+    font-size: 60px;
+}
+
+.section-subtitle {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.table {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    flex-wrap: wrap;
+}
+.table__cell {
+    width: 250px;
+    margin-top: 60px;
+    
+}
+.table__cell-heading {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 0;
+}
+.table__cell-text {
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.feynman {
+    height: 890px;
+    position: relative;
+    background-color: #f2f2f2;
+    background-image: url(images/feynman.png);
+    background-size: 867px 637px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    margin-top: 100px;
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+.feynman__title {
+    margin: 0 auto;
+    max-width: 648px;
+    text-align: center;
+    line-height: 1.15;
+    font-size: 120px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.feynman__subtitle {
+    margin-top: 70;
+    text-align: center;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;   
+}
+.feynman__link {
+    position: absolute;
+    top: 50%;
+    right: 48px;
+    bottom: 50%;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal; 
+    text-decoration: none;
+}
+.kaufman {
+    height: 967px;
+    background-color: black;
 }
