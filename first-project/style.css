@@ -260,7 +260,6 @@
   .logo_place_footer{
     width: 228px;
     height: 32px;
-    color: white;
 }
   
   .footer__author {
@@ -270,14 +269,12 @@
     font-weight: normal;
     margin-top: 18px;
     margin-bottom: 18px;
-    color: white;
 }
   
   .footer__column-heading {
     line-height: 30px;
     font-size: 18px;
     font-weight: bolder;
-    color: white;
     padding-bottom: 20px;
 }
   
@@ -285,7 +282,6 @@
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
-    color: white;
 }
   
   .footer__social-icon {
@@ -295,80 +291,3 @@
   .footer__column-link {
     text-decoration: none;
 }
-/*.footer {
-    padding-top: 60px;
-    min-height: 350px;
-    box-sizing: border-box;
-    background-color: black;
-}
-.footer-content {
-    width: 90%;
-}
-.author {
-    line-height: 25px;
-    font-size: 18px;
-    font-weight: normal;
-    position: absolute;
-    bottom: 18px;
-    left: 0px;
-    border: 1px solid red;
-}
-.footer__columns {
-    display: flex;
-   /* flex-direction: column; 
-    flex-wrap: nowrap;
-}
-.footer__column_content-copyright {
-    flex-basis: 711px;
-    max-width: 50%;
-    height: 350px;
-    position: relative;
-    border: 1px solid red;
-}
-.footer__column-second {
-    min-width: 50%;
-    display: flex;
-    justify-content: center;
-    border: 1px solid red;
-}
-.footer__column_content-info {
-    
-    border: 1px solid red;
-}
-.logo__place_footer {
-    background-image: url(images/logo_place_footer.svg);
-    width: 228px;
-    height: 32px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    border: 1px solid red;
-}
-.footer__column_content-social {
-
-    border: 1px solid red; 
-}
-.footer__column-link-heading {
-    text-decoration: none;
-   /* display: inline-block;
-    margin-bottom: 10px; 
-}
-.footer__column-links-heading {
-    line-height: 30px;
-    font-size: 18px;
-    font-weight: bold;
-}
-.footer__column-links-text {
-    line-height: 30px;
-    font-size: 18px;
-    font-weight: normal;
-}
-.socials {
-    margin-bottom: 20px;
-}
-.social_img {
-    height: 16px;
-    width: 16px;
-    margin-right: 10px;
-} */
