@@ -70,11 +70,11 @@
     margin-top: 100px;
 }
 .description {
-    margin: auto;
+    margin: 0 auto;
     padding-top: 100px;
     box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .two-columns {
     width: 80%;
@@ -89,7 +89,6 @@
     line-height: 1.2;
     font-size: 17px;
     font-weight: normal;
-    
 }
 .two-columns__main-text {
     display: flex;
@@ -100,7 +99,6 @@
     margin-top: 0;
     gap: 30px;
     margin: 0;
-    
 }
 .two-columns__paragraph {
     line-height: 34px;
