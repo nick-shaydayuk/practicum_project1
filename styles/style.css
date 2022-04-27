@@ -45,7 +45,13 @@
     font-weight: normal;
     margin: 0 auto;
 }
-.header_main-illustration {
+.header__link {
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 auto;
+}
+.header__main-illustration {
     height: 608px;
     width: 765px;
     background-image: url(../images/two_again.png);
@@ -55,7 +61,7 @@
     right: 0;
     z-index: 1;
 }
-.header_squre-pic {
+.header__squre-pic {
     width: 568px;
     height: 568px;
     background-color: #2f80ed;
@@ -120,13 +126,16 @@
     height: auto;
     line-height: 1.15;
     font-size: 60px;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .section-subtitle {
     width: 60%;
     margin: auto;
     text-align: center;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
 }
 .table {
     display: flex;
@@ -179,7 +188,8 @@
     text-align: center;
     line-height: 51px;
     font-size: 36px;
-    font-weight: normal;   
+    font-weight: normal;
+    padding-bottom: 0;   
 }
 .feynman__link {
     position: absolute;
@@ -193,7 +203,6 @@
     color: #2f80ed;
 }
 .kaufman {
-    min-height: 967px;
     background-color:  #1f1f1f;
     box-sizing: border-box;
     overflow: hidden;
@@ -221,6 +230,7 @@
 .table__cell_theme_dark {
     width: 200px;
     position: relative;
+    padding-top: 60px;
     z-index: 2;
 }
 .kaufman__triangle {
@@ -239,9 +249,10 @@
     min-height: 350px;
     background-color: #1f1f1f;
     background-size: cover;
-    padding-top: 90px;
+    padding-top: 60px;
     padding-bottom: 40px;
     margin-bottom: 0;
+    box-sizing: border-box;
 }
   
   .footer__columns {
@@ -249,7 +260,6 @@
     width: 90%;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 60px;
 }
   
   .footer__column_content_copyright {
@@ -258,18 +268,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
-  
-  
-  
-  .footer__column_content_info {
-    padding-bottom: 18px;
-}
-  
-  .footer__column_content_social {
-    padding-bottom: 18px;
-}
-  
-  .logo_place_footer{
+.logo_place_footer{
     width: 228px;
     height: 32px;
 }
@@ -283,11 +282,13 @@
     margin-bottom: 18px;
 }
   
-  .footer__column-heading_theme_dark {
+  .footer__column-heading {
     line-height: 30px;
     font-size: 18px;
     font-weight: bold;
     color: #fff;
+    padding: 0px;
+    margin: 0px;
 }
   
   .footer__column-links {
@@ -303,11 +304,12 @@
     height: 16px;
 }
   
-  .footer__column-link_theme_dark {
+  .footer__column-link {
     text-decoration: none;
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
     color: #fff;
-
+    padding: 0;
+    margin: 0;
 }
